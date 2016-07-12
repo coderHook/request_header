@@ -1,0 +1,24 @@
+{
+  "name": "reqheaderparser",
+  "version": "1.0.0",
+  "description": "Request Header Parser Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderHook/request_header.git"
+  },
+  "author": "coderHook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderHook/request_header/issues"
+  },
+  "homepage": "https://github.com/coderHook/request_header#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "express": "^4.14.0"
+  }
+}
