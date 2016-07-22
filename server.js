@@ -15,6 +15,6 @@ app.get('/', function(req, res){
     console.log(req.headers);
 });
 
-app.listen(8080, function(){
+app.listen(process.env.PORT || 8080, function(){
     console.log('server running: https://fcc-basejumps-abel1987.c9users.io')
 });
